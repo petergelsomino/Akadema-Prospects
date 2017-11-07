@@ -1,0 +1,584 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+/*Advertisement CSS*/
+
+/*
+#top-banner {
+    height: 100px;
+    background-color: #d9534f;
+    color: #262626;
+}
+
+#top-banner p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+*/
+
+div#social-float { 
+    position: fixed; 
+    left: 10px; 
+    bottom: 10px; 
+    z-index: 10;
+}
+
+
+.navbar-brand img {
+    margin-top: -10px;   
+    margin-top: -10px;   
+}
+
+/*NavBar CSS*/
+
+.navbar {
+    background-color:  #262626;   
+}
+
+.navbar-brand img {
+    border: 2px solid #d9534f;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff; 
+    font-size: 1.3em;
+}
+
+/*Keeps color white when you click and scroll away*/
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #d9534f; 
+    font-size: 1.3em;
+}
+
+/*Active tabs on nav bar*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: Black;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #d9534f;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:active {
+    color: Black;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #d9534f;
+}
+
+
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+    color: #d9534f;
+    font-weight: 700;
+}   
+
+section {
+    min-height: 300px;   
+}
+
+.container {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+/*Header Section CSS*/
+
+header {
+    padding-top: 75px;
+    min-height: 900px;
+    width: 100%;
+    background-image: url(images/homeScreenImages/IMG_2650.JPG);
+    filter: grayscale(15%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerText {
+    margin: 0 auto;  
+    padding-top: 150px;
+    color: #0d0d0d;
+}
+
+.name {
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 4px 4px black;
+}
+
+.motto {
+    font-size: 1.8em;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+}
+
+.skills {
+    font-size: 1.8em;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+}
+
+
+/*About Akadema Section CSS*/
+
+.sectionTitle {
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 10;
+    font-style: normal;
+    color: #d9534f;
+}
+
+#aboutBody {
+    font-size: 1.4em;   
+    text-align: justify;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+#accompList {
+    margin-bottom: 50px;   
+}
+
+#accompItems {
+    list-style: none;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: left;
+    display: inline-table; /*Puts in middle of the page*/
+}
+
+.accompItemRow {
+    margin-bottom: 10px;   
+}
+
+#accompTitle {
+    font-size: 2.7em; 
+    font-weight: bold;
+    color: #d9534f;
+}
+
+.accompIcon {
+    padding-right: 20px;
+    color: #FFD700;
+}
+
+.accompListRow {
+    text-align: center; /*Assists in #accompItems to put in middle of page*/
+    padding-top: 15px;
+}
+
+/*Meet the Coaches Section CSS*/
+
+#coaches {
+    background-image: url(images/sayagata-400px.png);
+}
+
+.coachImg {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.centerCoachImg {
+    margin: 0 auto;
+}
+
+.coachName {
+    padding-bottom: 25px;
+    font-weight: 700;
+}   
+
+#skip {
+    color: #d9534f;   
+}
+
+#coachP {
+    font-size: 1.55em;
+}
+
+.coachImg:hover {
+	cursor: pointer;
+}
+
+.coachImg1 {
+    margin-bottom: 15px;   
+}
+
+/*Teams Section CSS*/
+
+.sponsorItem img {
+    height: 75px;
+    width: 200px;
+    margin: 5px;
+}
+
+h2.teamH2 {
+    font-size: 3em; 
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 0px;
+}
+
+.teamPara {
+    font-size: 1.2em; 
+    text-align: justify;
+    margin: 25px;
+}
+
+.congratsIcon {
+    color: #FFD700;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.teamMemo {
+    font-size: 1.7em;   
+}
+
+.teamImg {
+    position: relative;
+    padding-bottom: 50px; 
+    margin: 25px;
+}
+
+.teamPics {
+    margin-top: 50px;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+#teamPicsRow {
+    margin-top: 20px;   
+}
+
+#imgPadBtm {
+   margin-bottom: 90px;   
+}
+
+/*make ad disappear for phones*/
+@media only screen and (max-width: 760px){
+    #social-float { 
+        display: none; 
+    }
+    
+    .navbar-brand img {
+        width: 105px;
+        height: 63px;
+    }
+    
+      #accompItems {
+        font-size: 1.4em;   
+    }
+}
+
+@media only screen and (max-width: 420px){
+    #accompTitle {
+        font-size: 2em;
+    }
+}
+
+
+/*Schedule CSS*/
+#schedule {
+    background-image: url(images/sayagata-400px.png);
+}
+
+.btnDiv {
+    padding-bottom: 50px;   
+}
+
+.scheduleBtn {
+    font-size: 1.5em;
+}
+
+#schedH3 {
+    margin-top: 0;
+}
+
+/*Sponsor Section CSS*/
+
+.siteBtn {                  /*also for sponsor button and go fund me button*/
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+.sponsorRow3 {
+    margin-bottom: 50px;   
+}
+
+/*Contact Form CSS*/
+
+label {
+    text-align: left; 
+    padding-left: 15px;
+}
+
+.form-group {
+ text-align: left;
+}
+
+
+#submitBtnDiv {
+    padding-top: 15px;
+    display: block;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+
+/*Gallery CSS*/
+
+.galleryP {
+    margin-top: 0;
+    font-size: 1.3em;
+}
+
+#gallery {
+    background-image: url(images/sayagata-400px.png); 
+}
+
+#galleryRow {
+    padding-bottom: 50px;  
+}
+
+.galleryImg {
+    border-radius: 25px;  
+    margin: 0 auto; 
+    margin-bottom: 15px;
+   
+}
+
+.galleryHeader {
+    margin-bottom: 50px;
+}
+
+.galleryHeader h1 {
+    font-weight: bold;
+    font-size: 3em;
+    color: #d9534f;
+}
+
+
+/*Donate CSS*/
+
+#donate {
+    background-image: url(images/sayagata-400px.png); 
+}
+
+#donateTitle { 
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 40px;
+    margin-bottom: -20px;
+    font-style: normal;
+    color: #d9534f;
+}
+
+#donateP {
+    font-size: 1.6em;
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.donateRow {
+    padding-bottom: 50px;   
+}
+
+/*Footer CSS*/
+
+footer {
+    background-color: #262626;
+    color: white;
+}
+
+.footHeader {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.footerP {
+    font-size: 1.15em;   
+}
+
+/*Danny Page*/
+.coachDesc{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.coachTitleName {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.coachRowPics {
+    padding-bottom: 25px;  
+}
+
+/*This is for a element*/
+btn-more {
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.fa-fw {
+    margin: 5px 5px 5px 5px;   
+}
+
+/*ICONS - this is outline of a element*/
+.btn-outline {
+    color: #fff;
+    font-size: 25px;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.btn-more, .scroll-top, .scroll-top .btn {
+    width: 50px;
+    height: 50px;
+}
+
+
+.btn-more:hover {
+    color: #d9534f;
+}
+
+.btn-more:active {
+    color: #d9534f;
+}
+
+.btn-outline:hover {
+    background-color: #fff;
+}
+
+.btn-outline:active {
+
+    background-color: #fff;
+}
+
+/*Changes Breakpoint for navabar*/
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+.rc-anchor.rc-anchor-normal.rc-anchor-light {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+@media screen and (max-height: 575px){
+#rc-imageselect, .g-recaptcha {transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;}
+}
+
+/*Changes Color of Bootstrap border glow*/
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: #d9534f;
+  box-shadow: 0 1px 1px #d9534f inset, 0 0 8px #d9534f;
+  outline: 0 none;
+}
+
+
+/*SWEET ALERT CSS*/
+
+/*Warning Title*/
+.sweet-alert h2 {
+    color: #575757;
+    font-size: 4em;
+    line-height: 55px;
+}
+
+.sweet-alert p {
+    color: #575757
+}
+
+/*Warning circle border*/
+.sweet-alert .sa-icon.sa-warning {
+    border-color: #d9534f
+
+}
+
+/*Warning Line*/
+.sweet-alert .sa-icon.sa-warning .sa-body {
+    color: #d9534f
+}
+
+/*Warning dot*/
+.sweet-alert .sa-icon.sa-warning .sa-dot {
+    color: #d9534f
+}
