@@ -85,6 +85,29 @@
             swal("Please fill out all fields", "Please Try Again!", "error")
         }
     }); 
+
+
+
+    $('#prospectsBtn').click(function() {
+        $(this).css('background-color', '#d9534f');
+        $(this).css('color', '#fff');
+        $('#bullsBtn').css('background-color', '#fff');
+        $('#bullsBtn').css('color', '#000');
+        $('input[name="os0"]').val('14U Prospects')
+        $('input[name="submit"]').prop("disabled", false);
+    });
+
+    $('#bullsBtn').click(function() {
+        $(this).css('background-color', '#d9534f');
+        $(this).css('color', '#fff');
+        $('#prospectsBtn').css('background-color', '#fff');
+        $('#prospectsBtn').css('color', '#000');
+        $('input[name="os0"]').val('13U Bulls');
+        $('input[name="submit"]').prop("disabled", false);
+    });
+
+
+
     
 //     swal({    
 //                confirmButtonColor: "#d9534f",   

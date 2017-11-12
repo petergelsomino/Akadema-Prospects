@@ -350,8 +350,8 @@ label {
 }
 
 #gallery {
-    background-image: url(images/sayagata-400px.png); 
-}
+    -image: url(images/sayagata-400px.png); 
+}background
 
 #galleryRow {
     padding-bottom: 50px;  
@@ -562,6 +562,27 @@ input[type="color"]:focus,
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.teamBtns {
+    width: 175px;
+}
+
+.btnActiveClass{
+    background-color: #F44336;
+}
+
+#bullsBtn:active {
+    background-color: #F44336;
+}
+
+.active {
+    background-color: #F44336;
+}
+
+.teamBtnSection {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /*SWEET ALERT CSS*/
