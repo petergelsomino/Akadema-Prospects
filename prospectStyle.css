@@ -311,6 +311,10 @@ h2.teamH2 {
     margin-top: 0;
 }
 
+#payments {
+    background-image: url(images/sayagata-400px.png);
+}
+
 /*Sponsor Section CSS*/
 
 .siteBtn {                  /*also for sponsor button and go fund me button*/
@@ -350,8 +354,8 @@ label {
 }
 
 #gallery {
-    background-image: url(images/sayagata-400px.png); 
-}
+    -image: url(images/sayagata-400px.png); 
+}background
 
 #galleryRow {
     padding-bottom: 50px;  
@@ -377,9 +381,9 @@ label {
 
 /*Donate CSS*/
 
-#donate {
+/*#donate {
     background-image: url(images/sayagata-400px.png); 
-}
+}*/
 
 #donateTitle { 
     font-size: 3em;
@@ -551,6 +555,38 @@ input[type="color"]:focus,
   border-color: #d9534f;
   box-shadow: 0 1px 1px #d9534f inset, 0 0 8px #d9534f;
   outline: 0 none;
+}
+
+
+
+/*PayPal CSS*/
+
+#akademaPaymentTable {
+      text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.teamBtns {
+    width: 175px;
+}
+
+.btnActiveClass{
+    background-color: #F44336;
+}
+
+#bullsBtn:active {
+    background-color: #F44336;
+}
+
+.active {
+    background-color: #F44336;
+}
+
+.teamBtnSection {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 

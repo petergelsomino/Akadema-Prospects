@@ -83,8 +83,8 @@
 					<li class="page-scroll">
                         <a href="#sponsors">Sponsors</a>
                     </li>
-					<li class="page-scroll">
-                        <a href="#donate">Donate</a>
+                    <li class="page-scroll">
+                        <a href="#payments">Payments</a>
                     </li>
                 </ul>
             </div>
@@ -262,11 +262,11 @@
         <!--Column 1-->
         <div class="row col-xs-12 col-md-6 col-lg-6">
                 <div class="row">
-                    <h2>13U Prospects</h2>
+                    <h2>13U Bulls</h2>
                 </div>
                 <div class="row">
                     <div>   
-                        <p class="teamPara">The <strong>13u Prospects</strong> is a newly formed team for the 2017 season. The team will compete in various tournaments both in and out of state as well the "Boys of Summer" summer league. The 13U team will have numerous weeks of winter workouts to prepare our boys for the heavy loaded competition we face in the summer and on our out of state tournaments.  With collegic level coaching and the heart and desire from our new players, the team will be highly competitve. We look forward to their success and development in the 2017 season.</p>
+                        <p class="teamPara">The <strong>13U Bulls</strong> is a newly formed team for the 2017 season. The team will compete in various tournaments both in and out of state as well the "Boys of Summer" summer league. The 13U team will have numerous weeks of winter workouts to prepare our boys for the heavy loaded competition we face in the summer and on our out of state tournaments.  With collegic level coaching and the heart and desire from our new players, the team will be highly competitve. We look forward to their success and development in the 2017 season.</p>
                     </div>
                 </div>
                  <div class="row teamPicsRow">
@@ -602,6 +602,61 @@
 			</div>
         </div>
   </section>
+
+   <!-- PayPal -->
+    <section id="payments">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="sectionTitle">ALREADY A PROSPECT?</h2>
+                </div>
+            </div>
+            
+            <!-- Add in games pulled from gamechanger?? -->
+            <!-- Add in Results of those games??? -->
+            
+            <div class="row">
+                <div class="col-lg-12">
+                   <h3 id="schedH3"><strong>Make easy payments for your team below! Choose your team before making a payment</strong></h3>
+                </div>
+            </div>
+             <div class="row">
+                <div class="col-lg-12 btnDiv">
+
+                    <div class="col-sm-12 col-xs-12 teamBtnSection">
+                            <div id="teamPayPicker" class="btn-group" role="group" aria-label="...">
+                                <div class="col-sm-6 col-xs-12">
+                                  <button id="bullsBtn" type="button" class="btn btn-default btn-lg teamBtns">13U Bulls</button>
+                              </div>
+                                <div class="col-sm-6 col-xs-12">
+                                  <button id="prospectsBtn" type="button" class="btn btn-default btn-lg teamBtns">14U Prospects</button>
+                                </div>
+                            </div>
+                    </div>
+
+                    
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="EVE7DAQRUM99J">
+                        <table>
+                        <tr><td><input type="hidden" name="on0" value="TEAM "></td></tr><tr><td><input type="hidden" name="os0" maxlength="200"></td></tr>
+                        </table>
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" disabled>
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
 
 
 <!-- Donate Section -->
