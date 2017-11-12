@@ -311,6 +311,10 @@ h2.teamH2 {
     margin-top: 0;
 }
 
+#payments {
+    background-image: url(images/sayagata-400px.png);
+}
+
 /*Sponsor Section CSS*/
 
 .siteBtn {                  /*also for sponsor button and go fund me button*/
@@ -377,9 +381,9 @@ label {
 
 /*Donate CSS*/
 
-#donate {
+/*#donate {
     background-image: url(images/sayagata-400px.png); 
-}
+}*/
 
 #donateTitle { 
     font-size: 3em;
@@ -584,6 +588,7 @@ input[type="color"]:focus,
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 
 /*SWEET ALERT CSS*/
 
